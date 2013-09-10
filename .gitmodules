@@ -1,0 +1,6 @@
+[submodule "source/assets/stylesheets/vendor/csswizardry-grids"]
+	path = source/assets/stylesheets/vendor/csswizardry-grids
+	url = https://github.com/csswizardry/csswizardry-grids.git
+[submodule "source/assets/stylesheets/vendor/normalize"]
+	path = source/assets/stylesheets/vendor/normalize
+	url = https://github.com/necolas/normalize.css.git

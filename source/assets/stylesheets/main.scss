@@ -1,0 +1,23 @@
+// Use sprockets for vanilla css and erb
+//= require vendor/normalize/normalize
+//= require partials/_syntax
+
+// grid
+$responsive: true;
+$push: true;
+$mobile-first: true;
+$use-silent-classes: true;
+$use-markup-fix: false;
+
+// typography and rhythm
+$base-font-family: serif;
+$heading-font-family: serif;
+$mono-font-family: monospace;
+
+@import "compass";
+@import "vendor/csswizardry-grids/csswizardry-grids.scss";
+
+@import "partials/foundation";
+@import "partials/misc";
+@import "partials/layout";
+
