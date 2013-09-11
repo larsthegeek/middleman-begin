@@ -14,7 +14,7 @@ $h5-font-size: 18px !default;
 $h6-font-size: 16px !default;
 $base-font-family: sans-serif !default;
 $heading-font-family: serif !default;
-$round-to-nearest-half-line: true;
+$round-to-nearest-half-line: true !default;
 
 @include establish-baseline;
 
