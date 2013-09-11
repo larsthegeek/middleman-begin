@@ -25,13 +25,19 @@ Install [Middleman]:
 
 Clone middleman-begin:
 
-    git clone git@github.com:shkm/middleman-begin.git my-project
+    git clone git@github.com:shkm/middleman-begin.git my-project && cd my-project
 
-Install gems and get to work!
+Fetch the sub-modules (Normalize & CSSWizardry-Grids):
 
-    cd my-project
+    git submodule update --init
+
+Install gems:
+
     bundle install
-    middleman
+
+Run the middleman server and get to work:
+
+    bundle exec middleman
 
 
 ## Template Install
